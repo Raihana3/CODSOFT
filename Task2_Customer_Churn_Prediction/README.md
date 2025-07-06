@@ -26,4 +26,6 @@ To identify customers likely to stop using a service using supervised machine le
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-python main.py
+3. Run the script
+   ```bash
+   python main.py
