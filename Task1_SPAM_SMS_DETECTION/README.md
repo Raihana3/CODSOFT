@@ -1,29 +1,42 @@
 # Task 1 - Spam SMS Detection
-# 📩Spam SMS Detection 
+# Spam SMS Detection 
 
-This project builds a machine learning model to detect whether an SMS is spam or not using text processing and classification techniques.
+A machine learning model that identifies whether an SMS is spam or legitimate, using text processing and classification techniques.
 
-## Objective
+##  Objective
 
-To classify messages as **Spam** or **Not Spam** using machine learning models based on text data.
+Classify SMS messages as **spam** or **not spam**, based on their content.
 
-## Technologies Used
+##  Dataset
+
+- **Source**: [SMS Spam Collection Dataset by UCI / Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- **Description**: Contains 5,574 SMS messages in English, with 747 labeled as spam and 4,827 as ham :contentReference[oaicite:1]{index=1}.
+- **Format**: Two-column CSV:
+  - `label`: `spam` or `ham`
+  - `message`: the text content of the SMS
+
+##  Technologies Used
 
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Natural Language Toolkit (NLTK)
+- NLTK for preprocessing
 - TF-IDF Vectorizer
-- Multinomial Naive Bayes / Logistic Regression
+- Models: Multinomial Naive Bayes and/or Logistic Regression
 
-##  Dataset
+##  Workflow
 
-- The dataset contains labeled SMS messages (`spam` or `ham`).
-- Commonly used dataset: [UCI SMS Spam Collection](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection)
+1. Load and clean the dataset (`spam.csv`)
+2. Preprocess text: remove punctuation, lowercase, remove stopwords
+3. Convert text to numerical features with TF-IDF
+4. Train classifiers to label spam vs ham
+5. Evaluate using accuracy, precision, recall, F1-score
 
-## 🚀 How to Run
+##  How to Run
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   
+```bash
+git clone <repo-url>
+cd Task_1
+pip install -r requirements.txt
+python main.py
+
