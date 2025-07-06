@@ -51,7 +51,7 @@ Welcome to my Machine Learning internship repository with **CodSoft**. This repo
 
 ---
 
-## 🙋‍♀️ About Me
+## About Me
 - **Name**: Raihana
 - **Internship**: CodSoft -  ML 
 - **Period**: June-July 2025
@@ -59,10 +59,10 @@ Welcome to my Machine Learning internship repository with **CodSoft**. This repo
 
 ---
 
-## 📫 Contact
+##  Contact
 Feel free to reach out if you'd like to collaborate or have feedback!
 
 ---
 
-⭐ If you like this repository, give it a star!
+ If you like this repository, give it a star!
 
