@@ -22,7 +22,7 @@ To identify customers likely to stop using a service using supervised machine le
 
 ## How to Run
 
-1. Ensure `churn_modelling.csv` is in the same directory.
+1. Ensure churn_modelling.csv is in the same directory.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
