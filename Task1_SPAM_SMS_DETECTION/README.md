@@ -34,10 +34,11 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 
 ##  How to Run
 
- **Clone the Repository**
+
 ```bash
-git clone https://github.com/Raihana3/CODSOFT.git
-cd CODSOFT/Task1_SPAM_SMS_DETECTION
+Clone the Repository
+   git clone https://github.com/Raihana3/CODSOFT.git
+   cd CODSOFT/Task1_SPAM_SMS_DETECTION
 
 Install Required Libraries
 Make sure the following Python packages are installed:
