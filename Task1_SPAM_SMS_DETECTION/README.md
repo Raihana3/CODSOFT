@@ -34,9 +34,21 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 
 ##  How to Run
 
+1. **Clone the Repository**
 ```bash
-git clone <repo-url>
-cd Task_1
-pip install -r requirements.txt
-python main.py
+git clone https://github.com/Raihana3/CODSOFT.git
+cd CODSOFT/Task1_SPAM_SMS_DETECTION
+Install Required Libraries
+Make sure the following Python packages are installed:
+
+pip install pandas scikit-learn nltk
+Open jupyter Notebook
+Then open the file:
+spam_sms_detection.ipynb
+
+Run the Notebook
+Step through each cell to:
+     *Preprocess the data
+     *Train the model
+     *Evaluate the results
 
