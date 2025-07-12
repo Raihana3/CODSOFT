@@ -34,7 +34,7 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 
 ##  How to Run
 
-1. **Clone the Repository**
+ **Clone the Repository**
 ```bash
 git clone https://github.com/Raihana3/CODSOFT.git
 cd CODSOFT/Task1_SPAM_SMS_DETECTION
