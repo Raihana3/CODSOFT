@@ -10,10 +10,10 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 ##  Dataset
 
 - **Source**: [SMS Spam Collection Dataset by UCI / Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
-- **Description**: Contains 5,574 SMS messages in English, with 747 labeled as spam and 4,827 as ham :contentReference[oaicite:1]{index=1}.
+- **Description**: Contains 5,574 SMS messages in English, with 747 labeled as spam and 4,827 as ham 
 - **Format**: Two-column CSV:
-  - `label`: `spam` or `ham`
-  - `message`: the text content of the SMS
+  - label: spam or ham
+  - message: the text content of the SMS
 
 ##  Technologies Used
 
@@ -26,7 +26,7 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 
 ##  Workflow
 
-1. Load and clean the dataset (`spam.csv`)
+1. Load and clean the dataset (spam.csv)
 2. Preprocess text: remove punctuation, lowercase, remove stopwords
 3. Convert text to numerical features with TF-IDF
 4. Train classifiers to label spam vs ham
