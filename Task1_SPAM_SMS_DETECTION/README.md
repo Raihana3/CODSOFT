@@ -10,7 +10,7 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 ##  Dataset
 
 - **Source**: [SMS Spam Collection Dataset by UCI / Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
-- **Description**: Contains 5,574 SMS messages in English, with 747 labeled as spam and 4,827 as ham 
+- **Description**: Contains 5,572 SMS messages in English, with 747 labeled as spam and 4,825 as ham 
 - **Format**: Two-column CSV:
   - label: spam or ham
   - message: the text content of the SMS
@@ -34,22 +34,27 @@ Classify SMS messages as **spam** or **not spam**, based on their content.
 
 ##  How to Run
 
-```bash
-Clone the Repository
+1. Clone the Repository:
+   
    git clone https://github.com/Raihana3/CODSOFT.git
+   
    cd CODSOFT/Task1_SPAM_SMS_DETECTION
 
-Install Required Libraries
+2. Install Required Libraries
+   
    Make sure the following Python packages are installed:
+   ```bash
        pip install pandas scikit-learn nltk
+       pip install matplotlib seaborn
 
-Open jupyter Notebook
-Then open the file:
-spam_sms_detection.ipynb
+3. Open jupyter Notebook
+   
+     Then open the file: 'spam_sms_detection.ipynb'
 
-Run the Notebook
-Step through each cell to:
-     *Preprocess the data
-     *Train the model
-     *Evaluate the results
+4. Run the Notebook
+   
+      Step through each cell to:
+      - Preprocess the data
+      - Train the model
+      - Evaluate the results
 
