@@ -48,16 +48,16 @@ To identify customers likely to stop using a service using supervised machine le
 
 3. Open Jupyter Notebook
 
-   Then open the fie:' customer_churn_prediction.ipynb'
+     Then open the fie:' customer_churn_prediction.ipynb'
 
 4. Run the Notebook
 
-   Step through each cell to:
+    Step through each cell to:
 
- - Load and explore the dataset
+  - Load and explore the dataset
 
- - Preprocess and encode features
+  - Preprocess and encode features
 
- - Train machine learning models 
+  - Train machine learning models 
 
- - Evaluate model performance using accuracy, confusion matrix, and classification report
+  - Evaluate model performance using accuracy, confusion matrix, and classification report
